@@ -10,7 +10,18 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
 }
+
+.list {
+  display: inline-flex;
+  justify-content: space-between;
+  gap: 52px;
+  max-width: 200px;
+}
+
 
 /* do not edit this footer */
 .footer {
